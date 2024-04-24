@@ -15,6 +15,18 @@ sum_without_builtin = sum_of_numbers_without_builtin(numbers)
 print("Sum of numbers without using standard function:", sum_without_builtin)
 
 
+#with using standard fuction
+
+# Get input from the user
+numbers = input("Enter a list of numbers separated by spaces: ").split()
+
+# Convert the input strings to integers
+numbers = [int(num) for num in numbers]
+
+# Calculate the sum using the built-in sum() function
+total = sum(numbers)
+
+print("Sum of the numbers:", total)
 
 
 
